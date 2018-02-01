@@ -1,0 +1,101 @@
+	☐	aide_conf
+	✔	apache_conf @done (2018-02-01 11:11)
+	✔	apt @done (2018-02-01 11:11)
+	✔	audit_policy @done (2018-02-01 11:11)
+	✔	auditd @done (2018-02-01 11:11)
+	✔	auditd_conf @done (2018-02-01 11:11)
+	✔	auditd_rules @done (2018-02-01 11:11)
+	✔	bash @done (2018-02-01 11:11)
+	✔	bond @done (2018-02-01 11:11)
+	✔	bridge @done (2018-02-01 11:11)
+	☐	bsd_service
+	✔	command @done (2018-02-01 11:11)
+	☐	cpan
+	☐	cran
+	✔	crontab @done (2018-02-01 11:51)
+	✔	csv @done (2018-02-01 11:11)
+	✔	directory @done (2018-02-01 11:12)
+	☐	docker
+	✔	docker_container @done (2018-02-01 11:12)
+	✔	docker_image @done (2018-02-01 11:12)
+	✔	docker_service @done (2018-02-01 11:12)
+	☐	elasticsearch
+	✔	etc_fstab @done (2018-02-01 11:56)
+	✔	etc_group @done (2018-02-01 11:12)
+	☐	etc_hosts
+	☐	etc_hosts_allow
+	☐	etc_hosts_deny
+	✔	file @done (2018-02-01 11:12)
+	☐	filesystem
+	☐	firewalld
+	✔	gem @done (2018-02-01 11:12)
+	✔	group @done (2018-02-01 11:12)
+	☐	grub_conf
+	✔	host @done (2018-02-01 11:12)
+	☐	http
+	☐	iis_app
+	☐	iis_site
+	✔	inetd_conf @done (2018-02-01 11:12)
+	☐	ini
+	✔	interface @done (2018-02-01 11:12)
+	✔	iptables @done (2018-02-01 11:12)
+	✔	json @done (2018-02-01 11:12)
+	✔	kernel_module @done (2018-02-01 11:12)
+	✔	kernel_parameter @done (2018-02-01 11:12)
+	☐	key_rsa
+	☐	launchd_service
+	✔	limits_conf @done (2018-02-01 11:12)
+	✔	login_def @done (2018-02-01 11:12)
+	☐	mount
+	☐	mssql_session
+	✔	mysql_conf @done (2018-02-01 11:12)
+	✔	mysql_session @done (2018-02-01 11:12)
+	☐	nginx
+	☐	nginx_conf
+	✔	npm @done (2018-02-01 11:12)
+	✔	ntp_conf @done (2018-02-01 11:13)
+	✔	oneget @done (2018-02-01 11:13)
+	☐	oracledb_session
+	✔	os @done (2018-02-01 11:13)
+	✔	os_env @done (2018-02-01 11:13)
+	✔	package @done (2018-02-01 11:13)
+	✔	parse_config @done (2018-02-01 11:13)
+	✔	parse_config_file @done (2018-02-01 11:13)
+	✔	passwd @done (2018-02-01 11:13)
+	✔	pip @done (2018-02-01 11:13)
+	✔	port @done (2018-02-01 11:13)
+	✔	postgres_conf @done (2018-02-01 11:13)
+	☐	postgres_hba_conf
+	☐	postgres_ident_conf
+	✔	postgres_session @done (2018-02-01 11:13)
+	☐	powershell
+	✔	processes @done (2018-02-01 11:13)
+	☐	rabbitmq_config
+	✔	registry_key @done (2018-02-01 11:13)
+	☐	runit_service
+	✘	script @cancelled (2018-02-01 11:14)
+	✔	security_policy @done (2018-02-01 11:14)
+	✔	service @done (2018-02-01 11:14)
+	☐	shadow
+	✔	ssh_config @done (2018-02-01 11:14)
+	✔	sshd_config @done (2018-02-01 11:14)
+	☐	ssl
+	☐	sys_info
+	☐	systemd_service
+	☐	sysv_service
+	☐	upstart_service
+	✔	user @done (2018-02-01 11:14)
+	☐	users
+	☐	vbscript
+	☐	virtualization
+	✔	windows_feature @done (2018-02-01 11:14)
+	☐	windows_hotfix
+	☐	windows_task
+	☐	wmi
+	☐	x509_certificate
+	☐	xinetd_conf
+	☐	xml
+	✔	yaml @done (2018-02-01 11:14)
+	✔	yum @done (2018-02-01 11:14)
+	☐	zfs_dataset
+	☐	zfs_pool
