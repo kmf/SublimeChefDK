@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+describe etc_hosts_deny.where { client_list == ['127.0.1.154',  '[:fff:fAb0::]'] } do
+  its('daemon') { should eq ['vsftpd', 'sshd'] }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe etc_hosts_deny</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe etc_hosts_deny</description>
+</snippet>
