@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+describe filesystem('/') do
+  its('size') { should be >= 32000 }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe filesystem</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe filesystem</description>
+</snippet>
