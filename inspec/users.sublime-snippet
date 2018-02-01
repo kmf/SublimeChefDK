@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+describe users.where(uid: 0).entries do
+  it { should eq ['root'] }
+  its('uids') { should eq [1234] }
+  its('gids') { should eq [1234] }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe users</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe users</description>
+</snippet>
