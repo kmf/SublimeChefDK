@@ -8,7 +8,7 @@ This package is based on [SublimeChef][sublimechef], but has been updated to Che
 
 You can install this package by entering the Packages directory of Sublime Text (on OSX this would normally be `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`) and issuing on a terminal:
 
-    git clone https://github.com/mschygulla/SublimeChefDK
+    git clone https://github.com/kmf/SublimeChefDK
 
 
 ## Issues
