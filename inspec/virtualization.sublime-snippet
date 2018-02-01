@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+describe virtualization do
+  its('system') { should eq 'vbox' }
+  its('role') { should eq 'guest' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe virtualization</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe virtualization</description>
+</snippet>
