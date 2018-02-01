@@ -22,17 +22,17 @@
 	☐	elasticsearch
 	✔	etc_fstab @done (2018-02-01 11:56)
 	✔	etc_group @done (2018-02-01 11:12)
-	☐	etc_hosts
-	☐	etc_hosts_allow
-	☐	etc_hosts_deny
+	✔	etc_hosts @done (2018-02-01 11:59)
+	✔	etc_hosts_allow @done (2018-02-01 12:01)
+	✔	etc_hosts_deny @done (2018-02-01 12:03)
 	✔	file @done (2018-02-01 11:12)
-	☐	filesystem
-	☐	firewalld
+	✔	filesystem @done (2018-02-01 12:04)
+	✔	firewalld @done (2018-02-01 12:06)
 	✔	gem @done (2018-02-01 11:12)
 	✔	group @done (2018-02-01 11:12)
-	☐	grub_conf
+	✔	grub_conf @done (2018-02-01 12:09)
 	✔	host @done (2018-02-01 11:12)
-	☐	http
+	✔	http @done (2018-02-01 12:11)
 	☐	iis_app
 	☐	iis_site
 	✔	inetd_conf @done (2018-02-01 11:12)
@@ -42,16 +42,16 @@
 	✔	json @done (2018-02-01 11:12)
 	✔	kernel_module @done (2018-02-01 11:12)
 	✔	kernel_parameter @done (2018-02-01 11:12)
-	☐	key_rsa
+	✔	key_rsa @done (2018-02-01 12:13)
 	☐	launchd_service
 	✔	limits_conf @done (2018-02-01 11:12)
 	✔	login_def @done (2018-02-01 11:12)
-	☐	mount
+	✔	mount @done (2018-02-01 12:13)
 	☐	mssql_session
 	✔	mysql_conf @done (2018-02-01 11:12)
 	✔	mysql_session @done (2018-02-01 11:12)
-	☐	nginx
-	☐	nginx_conf
+	✔	nginx @done (2018-02-01 12:15)
+	✔	nginx_conf @done (2018-02-01 12:16)
 	✔	npm @done (2018-02-01 11:12)
 	✔	ntp_conf @done (2018-02-01 11:13)
 	✔	oneget @done (2018-02-01 11:13)
@@ -65,8 +65,8 @@
 	✔	pip @done (2018-02-01 11:13)
 	✔	port @done (2018-02-01 11:13)
 	✔	postgres_conf @done (2018-02-01 11:13)
-	☐	postgres_hba_conf
-	☐	postgres_ident_conf
+	✔	postgres_hba_conf @done (2018-02-01 12:19)
+	✔	postgres_ident_conf @done (2018-02-01 12:22)
 	✔	postgres_session @done (2018-02-01 11:13)
 	☐	powershell
 	✔	processes @done (2018-02-01 11:13)
@@ -80,20 +80,20 @@
 	✔	ssh_config @done (2018-02-01 11:14)
 	✔	sshd_config @done (2018-02-01 11:14)
 	☐	ssl
-	☐	sys_info
-	☐	systemd_service
+	✔	sys_info @done (2018-02-01 12:24)
+	✔	systemd_service @done (2018-02-01 12:25)
 	☐	sysv_service
 	☐	upstart_service
 	✔	user @done (2018-02-01 11:14)
-	☐	users
+	✔	users @done (2018-02-01 12:26)
 	☐	vbscript
-	☐	virtualization
+	✔	virtualization @done (2018-02-01 12:28)
 	✔	windows_feature @done (2018-02-01 11:14)
 	☐	windows_hotfix
 	☐	windows_task
 	☐	wmi
-	☐	x509_certificate
-	☐	xinetd_conf
+	✔	x509_certificate @done (2018-02-01 12:32)
+	✔	xinetd_conf @done (2018-02-01 12:30)
 	☐	xml
 	✔	yaml @done (2018-02-01 11:14)
 	✔	yum @done (2018-02-01 11:14)
