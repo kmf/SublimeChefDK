@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+describe x509_certificate('mycertificate.pem') do
+  its('validity_in_days') { should be > 30 }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe x509_certificate</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe x509_certificate</description>
+</snippet>
