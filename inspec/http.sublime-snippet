@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+describe http('http://localhost:8080/ping',
+              auth: {user: 'user', pass: 'test'},
+              params: {format: 'html'},
+              method: 'POST',
+              headers: {'Content-Type' => 'application/json'},
+              data: '{"data":{"a":"1","b":"five"}}') do
+  its('status') { should cmp 200 }
+  its('body') { should cmp 'pong' }
+  its('headers.Content-Type') { should cmp 'text/html' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe http</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe http</description>
+</snippet>
