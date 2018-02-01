@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+describe etc_fstab.where { device_name == '/dev/sr0' } do
+  its('mount_point') { should cmp '/mnt/sr0' }
+  its('file_system_type') { should cmp 'iso9660' }
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe etc_fstab</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe etc_fstab</description>
+</snippet>
