@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+describe xinetd_conf.services('telnet') do
+  it { should be_disabled }
+  its('socket_type') { should include 'stream' }
+  its('wait') { should eq 'no' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe xinetd_conf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe xinetd_conf</description>
+</snippet>
