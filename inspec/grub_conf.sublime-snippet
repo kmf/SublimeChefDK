@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+describe grub_conf('/etc/grub.conf',  'default') do
+  its('kernel') { should include '/vmlinuz-2.6.32-573.7.1.el6.x86_64' }
+  its('initrd') { should include '/initrd-2.6.32-573.7.1.el6.x86_64.img' }
+  its('default') { should_not eq '1' }
+  its('timeout') { should eq '10' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe grub_conf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe grub_conf</description>
+</snippet>
