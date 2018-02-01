@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+describe mount('/') do
+  it { should be_mounted }
+  its('device') { should eq  '/dev/mapper/VolGroup-lv_root' }
+  its('type') { should eq  'ext4' }
+  its('options') { should eq ['rw', 'mode=620'] }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe mount</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe mount</description>
+</snippet>
