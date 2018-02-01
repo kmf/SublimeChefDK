@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+describe postgres_hba_conf.where { type == 'local' } do
+  its('address') { should cmp 'value' }
+  its('auth_method') { should cmp 'value' }
+  its('database') { should cmp 'value' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe postgres_hba_conf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe postgres_hba_conf</description>
+</snippet>
