@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+servers = nginx_conf.servers
+domain2 = servers.find { |s| s.params['server_name'].flatten.include? 'domain2.com' }
+describe 'No server serves domain2' do
+  subject { domain2 }
+  it { should be_nil }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe nginx_conf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe nginx_conf</description>
+</snippet>
