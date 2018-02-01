@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+describe firewalld do
+  it { should be_running }
+  its('default_zone') { should eq 'public' }
+  it { should have_service_enabled_in_zone('ssh', 'public') }
+  it { should have_rule_enabled('family=ipv4 source address=192.168.0.14 accept', 'public') }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe firewalld</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe firewalld</description>
+</snippet>
