@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+describe docker_image('alpine:latest') do
+  it { should exist }
+  its('id') { should eq 'sha256:4a415e...a526' }
+  its('image') { should eq 'alpine:latest' }
+  its('repo') { should eq 'alpine' }
+  its('tag') { should eq 'latest' }
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe docker_image</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe docker_image</description>
+</snippet>

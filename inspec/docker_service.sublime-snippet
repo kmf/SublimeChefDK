@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+describe docker_service('ucp-agent') do
+  it { should exist }
+  its('id') { should eq 'obl6ikmovf45' }
+  its('repo') { should eq 'docker/ucp-agent' }
+  its('tag') { should eq '2.2.5' }
+end
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe docker_service</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe docker_service</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+describe docker_container('an-echo-server') do
+  it { should exist }
+  it { should be_running }
+  its('id') { should_not eq '' }
+  its('image') { should eq 'busybox:latest' }
+  its('repo') { should eq 'busybox' }
+  its('tag') { should eq 'latest' }
+  its('ports') { should eq [] }
+  its('command') { should eq 'nc -ll -p 1234 -e /bin/cat' }
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>describe docker_container</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>describe docker_container</description>
+</snippet>
