@@ -6,16 +6,18 @@ This package is based on [SublimeChef][sublimechef], but has been updated to Che
 
 ## Install
 
-macOS:
+### macOS:
 cd `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/` and issuing on a terminal:
 
     git clone https://github.com/kmf/SublimeChefDK
 
-Linux:
+### Linux:
 cd `~/.config/sublime-text-3/Packages` and issuing on a terminal:
 
     git clone https://github.com/kmf/SublimeChefDK
 
+### Windows:
+cd `need halp!`
 
 ## Issues
 
@@ -34,11 +36,14 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 When making a pull request, please explain why you’re making a change. Even if it seems self-evident, please take a sentence or two to tell why your change or addition should happen.
 
-##Credits
+## Credits
 - https://github.com/mschygulla/SublimeChefDK 
 - https://github.com/cabeca/SublimeChef
 - https://github.com/brianhays/SublimeChef
 - https://github.com/tas50/SublimeChef
+
+## Package Control
+  `need halp!`
 
 ## License
 
